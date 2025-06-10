@@ -7,4 +7,4 @@ celsius = float(input('Informe a temperatura para ser convertida: '))
 
 conta = continha(celsius)
 
-print(f'A temperatura {celsius}C° em Fahrenheit é de {conta}F°')
+print(f'A temperatura {celsius:.2f}C° em Fahrenheit é de {conta:.2f}F°')
