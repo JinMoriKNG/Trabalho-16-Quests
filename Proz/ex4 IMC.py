@@ -8,4 +8,4 @@ peso = float(input('Informe o seu peso: '))
 
 conta = continha(altura, peso)
 
-print(f'O IMC calculado é de {conta}.')
+print(f'O IMC calculado é de {conta:.2f}.')
